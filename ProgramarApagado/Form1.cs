@@ -44,7 +44,14 @@ namespace ProgramarApagado
             }
             else
             {
-                ComandosCMD.ProgramarApagado(tiempo(horas.Value, minutos.Value, segundos.Value));
+                if(rbApagar.Checked == true)
+                {
+                    ComandosCMD.ProgramarApagado(tiempo(horas.Value, minutos.Value, segundos.Value));
+                }
+                else
+                {
+                    ComandosCMD.ProgramarHibernar(tiempo(horas.Value, minutos.Value, segundos.Value));
+                }
                 Close();
             }
         }

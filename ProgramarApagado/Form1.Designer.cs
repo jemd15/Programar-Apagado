@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rbHibernar = new System.Windows.Forms.RadioButton();
+            this.rbApagar = new System.Windows.Forms.RadioButton();
             this.segundos = new System.Windows.Forms.NumericUpDown();
             this.minutos = new System.Windows.Forms.NumericUpDown();
             this.horas = new System.Windows.Forms.NumericUpDown();
@@ -38,8 +40,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.botonApagar = new System.Windows.Forms.Button();
             this.botonCancelar = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.segundos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minutos)).BeginInit();
@@ -48,8 +48,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(this.rbHibernar);
+            this.panel1.Controls.Add(this.rbApagar);
             this.panel1.Controls.Add(this.segundos);
             this.panel1.Controls.Add(this.minutos);
             this.panel1.Controls.Add(this.horas);
@@ -65,6 +65,29 @@
             this.panel1.Size = new System.Drawing.Size(282, 132);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // rbHibernar
+            // 
+            this.rbHibernar.AutoSize = true;
+            this.rbHibernar.Location = new System.Drawing.Point(109, 16);
+            this.rbHibernar.Name = "rbHibernar";
+            this.rbHibernar.Size = new System.Drawing.Size(65, 17);
+            this.rbHibernar.TabIndex = 10;
+            this.rbHibernar.Text = "Hibernar";
+            this.rbHibernar.UseVisualStyleBackColor = true;
+            // 
+            // rbApagar
+            // 
+            this.rbApagar.AutoSize = true;
+            this.rbApagar.Checked = true;
+            this.rbApagar.Location = new System.Drawing.Point(15, 16);
+            this.rbApagar.Name = "rbApagar";
+            this.rbApagar.Size = new System.Drawing.Size(59, 17);
+            this.rbApagar.TabIndex = 9;
+            this.rbApagar.TabStop = true;
+            this.rbApagar.Text = "Apagar";
+            this.rbApagar.UseVisualStyleBackColor = true;
+            this.rbApagar.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // segundos
             // 
@@ -150,29 +173,6 @@
             this.botonCancelar.UseVisualStyleBackColor = true;
             this.botonCancelar.Click += new System.EventHandler(this.botonCancelar_Click);
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(39, 16);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(59, 17);
-            this.radioButton1.TabIndex = 9;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Apagar";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(156, 16);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(65, 17);
-            this.radioButton2.TabIndex = 10;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Hibernar";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // ventanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,8 +203,8 @@
         private System.Windows.Forms.NumericUpDown segundos;
         private System.Windows.Forms.NumericUpDown minutos;
         private System.Windows.Forms.NumericUpDown horas;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbHibernar;
+        private System.Windows.Forms.RadioButton rbApagar;
     }
 }
 

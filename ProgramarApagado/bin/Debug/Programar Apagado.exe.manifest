@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Programar Apagado.exe" size="155608">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Programar Apagado.exe" size="156120">
       <assemblyIdentity name="Programar Apagado" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nownoKEslri6t39xrFl30WXkU7dv9Qxvqi271cuD6xw=</dsig:DigestValue>
+        <dsig:DigestValue>irNEg4elCfMk3UAYJjaLxSI24/wdKL4ISXPCQ29k36o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

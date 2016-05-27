@@ -1,0 +1,13 @@
+c:\users\javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\ProgramarApagado.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\ProgramarApagado.ventanaPrincipal.resources
+c:\users\javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\ProgramarApagado.Properties.Resources.resources
+c:\users\javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\ProgramarApagado.csproj.GenerateResource.Cache
+c:\users\javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\bin\Debug\Programar Apagado.exe.config
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\bin\Debug\Programar Apagado.exe.manifest
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\bin\Debug\Programar Apagado.application
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\bin\Debug\Programar Apagado.exe
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\bin\Debug\Programar Apagado.pdb
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\Programar Apagado.exe.manifest
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\Programar Apagado.application
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\Programar Apagado.exe
+C:\Users\Javier\documents\visual studio 2015\Projects\ProgramarApagado\ProgramarApagado\obj\Debug\Programar Apagado.pdb

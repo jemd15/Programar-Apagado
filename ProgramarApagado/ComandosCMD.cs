@@ -43,7 +43,7 @@ namespace ProgramarApagado
 
         public static void ProgramarHibernar(decimal tiempo) {
             //Indicamos el comando a ejecutar en la consola de comandos
-            System.Diagnostics.ProcessStartInfo procStartInfo = new System.Diagnostics.ProcessStartInfo("cmd", "/c shutdown /h /f /t " + tiempo);
+            System.Diagnostics.ProcessStartInfo procStartInfo = new System.Diagnostics.ProcessStartInfo("cmd", "/c shutdown /h /t " + tiempo);
             //Indicamos que la salida del proceso se redireccione en un Stream
             procStartInfo.RedirectStandardOutput = true;
             procStartInfo.UseShellExecute = false;
